@@ -3,6 +3,20 @@ server:
 spring:
   application:
     name: eureka-server
+
+
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      password: springboot
+      url: jdbc:mysql://localhost:3306/springboot
+      username: springboot
+
+  jpa:
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      hibernate:
+        ddl-auto: create
+      show-sql: true
+
 eureka:
   client:
     fetch-registry: false
