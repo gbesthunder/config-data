@@ -1,9 +1,9 @@
 srping:
   datasource:
     driver: com.mysql.jdbc.Driver
-    password:my_db
-    url: jdbc:mysql://localhost:3306/my_db
-    username: my_db
+    password:springboot
+    url: jdbc:mysql://localhost:3306/springboot
+    username: springboot
   jpa:
     database-platform: org.hubernate.dialect.MySQL5InnoDBDialect
     hibernate:
