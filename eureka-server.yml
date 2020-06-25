@@ -11,11 +11,6 @@ spring:
       url: jdbc:mysql://localhost:3306/springboot
       username: springboot
 
-  jpa:
-      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-      hibernate:
-        ddl-auto: create
-      show-sql: true
 
 eureka:
   client:
