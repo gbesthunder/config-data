@@ -1,11 +1,11 @@
 srping:
   datasource:
     driver: com.mysql.jdbc.Driver
-    password:springboot
+    password: springboot
     url: jdbc:mysql://localhost:3306/springboot
     username: springboot
   jpa:
-    database-platform: org.hubernate.dialect.MySQL5InnoDBDialect
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
       ddl-auto: create
     show-sql: true
